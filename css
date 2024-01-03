@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.car-container {
+  text-align: right;
+  height: 100vh;
+  background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/dream-car-bg.png");
+  background-size: cover;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.car-content{
+  width: 56%;
+}
+.car-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.car-description{
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.car-speed {
+  width: 70px;
+  padding-bottom: 80px;
+}
